@@ -112,8 +112,7 @@ main{
 }
 
 .slider img{
-    width: 255px;
-    margin: auto;
+    width: 550px;
 }
 
 #sidebar {
@@ -124,7 +123,8 @@ main{
 }
 
 #sidebar img{
-    width: auto;
+    width: 255px;
+    Martín: auto;
 }
 
 #cont1 {
