@@ -125,7 +125,8 @@ main{
 #sidebar img{
     width: 255px;
     margin: auto;
-    align: center;
+    align-items: center;
+    justify-content: center;
     display:flex;
 }
 
