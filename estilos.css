@@ -143,6 +143,7 @@ footer ul{
 footer li{
     margin-top: 32px;
     margin-left: 32px;
+    margin-right: 16px;
     margin-bottom: 32px;
 }
 
@@ -159,12 +160,11 @@ footer span{
 
 }
 
-footer a{
+footer span a{
     margin-left: 4px;
     text-decoration: none;
     font-family: sans-serif, sans-serif;
-    color: #AC8DBEC;
-
+    color: #C8DBEC;
 }
 
 @media only screen and (max-width:550px) {
