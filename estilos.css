@@ -4,7 +4,7 @@
 }
 
 :root{
-    --main-radius:6px;
+    --main-radius:0px;
     --main-padding:12px;
 }
 
@@ -12,7 +12,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-rows: 0.32fr 1.5fr 0.86fr 0.2fr;
     grid-template-areas: 
         "nav nav nav nav"
         "sidebar main main main"
