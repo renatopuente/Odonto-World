@@ -8,6 +8,39 @@
     --main-padding:12px;
 }
 
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+    font-family: 'Heebo', sans-serif;
+    color: #f2f2f2;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+h4{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: #cecece;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+p{
+    font-family: 'Carme', sans-serif;
+    color: rgb(247, 245, 242);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
 .contenedor{
     display: grid;
     height: 100vh;
@@ -21,29 +54,45 @@
     grid-gap: 0.2rem;
 }
 
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav h3{
+    color: #275772;;
+}
+
+nav img{
+    width: 32px;
+}
+
 nav{
-    background-color: blueviolet;
+    background-color:#FCFEFF;
     grid-area: nav;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 main{
-    background-color: coral;
+    background-color: #17588F;
     grid-area: main;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #sidebar {
-    background-color: darkcyan;
+    background-color: #275772;
     grid-area: sidebar;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #cont1 {
-    background-color: firebrick;
+    background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img1.png?raw=true);
+    background-repeat:no-repeat;
+    background-size: cover;
     grid-area: cont1;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
@@ -64,7 +113,7 @@ main{
 }
 
 footer{
-    background-color: indigo;
+    background-color: #504F4F;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
