@@ -55,7 +55,7 @@ p{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.32fr 1.5fr 0.86fr 0.2fr;
+    grid-template-rows: 0.32fr 0.86fr 0.8fr 0.2fr;
     grid-template-areas: 
         "nav nav nav nav"
         "sidebar main main main"
@@ -93,7 +93,7 @@ main{
 }
 
 .slider{
-    width: 550px;
+    width: 55%;
     margin: auto;
     overflow: hidden;
 }
