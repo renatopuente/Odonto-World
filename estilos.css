@@ -109,14 +109,18 @@ main{
 }
 
 #cont2{
-    background: goldenrod;
+    background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img2.png?raw=true);
+    background-repeat:no-repeat;
+    background-size: cover;
     grid-area: cont2;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
 
 #cont3{
-    background-color: #ff6b00;
+    background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img3.png?raw=true);
+    background-repeat:no-repeat;
+    background-size: cover;
     grid-area: cont3;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
