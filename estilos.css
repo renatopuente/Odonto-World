@@ -93,7 +93,7 @@ main{
 }
 
 .slider{
-    width: 65%;
+    width: 550px;
     margin: auto;
     overflow: hidden;
 }
@@ -243,7 +243,7 @@ footer span a{
 
     nav h3{
         color: #275772;
-        font-size: 12;
+        font-size: 14;
     }
 
 }
