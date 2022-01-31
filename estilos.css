@@ -93,7 +93,7 @@ main{
 }
 
 .slider{
-    width: 55%;
+    width: 75%;
     margin: auto;
     overflow: hidden;
 }
@@ -165,7 +165,7 @@ footer ul{
 
 footer li{
     margin-top: 32px;
-    margin-left: 32px;
+    margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 32px;
 }
