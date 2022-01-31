@@ -60,7 +60,7 @@ p{
         "nav nav nav nav"
         "sidebar main main main"
         "sidebar cont1 cont2 cont3"
-        "sidebar footer footer footer";
+        "footer footer footer footer";
     grid-gap: 0.2rem;
 }
 
@@ -120,6 +120,10 @@ main{
     grid-area: sidebar;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+}
+
+#sidebar img{
+    width: auto;
 }
 
 #cont1 {
