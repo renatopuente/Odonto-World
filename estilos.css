@@ -231,4 +231,19 @@ footer span a{
         "footer"
         ;
     }
+
+    h3{
+        font-family: 'Heebo', sans-serif;
+        font-size: 14px;
+        color: #f2f2f2;
+        padding-left: 16px;
+        padding-top: 16px;
+        padding-bottom: 32px;
+    }
+
+    nav h3{
+        color: #275772;
+        font-size: 12;
+    }
+
 }
