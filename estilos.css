@@ -133,6 +133,40 @@ footer{
     padding-top:var(--main-padding);
 }
 
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li{
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+footer span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif, sans-serif;
+    font-size: 12px;
+    color: rgba(247, 245, 242, 0.527);
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+
+}
+
+footer a{
+    margin-left: 4px;
+    text-decoration: none;
+    font-family: sans-serif, sans-serif;
+    color: rgb(247, 245, 242);
+
+}
+
 @media only screen and (max-width:550px) {
     .contenedor{
         grid-template-columns: 1fr;
