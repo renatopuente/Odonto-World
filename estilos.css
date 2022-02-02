@@ -207,10 +207,29 @@ main{
 /*-----FOOOTER----*/
 
 footer{
-    background-color: #504F4F;
+    background-color: #252525;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+}
+
+footer .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .info img{
+    width: 42px;
+    margin: 32px;
 }
 
 footer ul{
@@ -221,7 +240,7 @@ footer ul{
 }
 
 footer li{
-    margin-top: 32px;
+    margin-top: 0px;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 32px;
