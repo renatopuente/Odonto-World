@@ -59,7 +59,7 @@ p{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: 
         "aside nav nav nav nav"
         "sidebar sidebar main main main"
@@ -280,7 +280,7 @@ footer span a{
 
 /*-----RESPONSIVE-----*/
 
-@media only screen and (max-width:550px) {
+@media only screen and (max-width:850px) {
     .contenedor{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 0.4fr 1.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 4fr;
