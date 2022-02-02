@@ -228,7 +228,7 @@ footer p{
 }
 
 footer .info img{
-    width: 42px;
+    width: auto;
     margin: 32px;
 }
 
@@ -240,7 +240,7 @@ footer ul{
 }
 
 footer li{
-    margin-top: 0px;
+    margin-top: 16px;
     margin-left: 16px;
     margin-right: 16px;
     margin-bottom: 32px;
