@@ -87,8 +87,17 @@ nav ul{
     margin-right: 32px;
 }
 
+nav ul a{
+    text-decoration: none;
+    color: #275772;
+}
+
+nav ul a:hover{
+    color: #2783d4;
+}
+
 nav h3{
-    color: #275772;;
+    color: #275772;
 }
 
 /*-----LOGO NAVBAR----*/
@@ -255,7 +264,7 @@ footer span{
     color: rgba(247, 245, 242, 0.527);
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
     padding-top: 0px;
 
 }
@@ -269,7 +278,7 @@ footer span .firm a{
     color: rgba(247, 245, 242, 0.527);
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 80px;
+
 }
 
 footer span a{
