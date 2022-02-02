@@ -59,11 +59,11 @@ p{
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.32fr 0.86fr 0.8fr 0.2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
         "aside nav nav nav nav"
         "sidebar sidebar main main main"
-        "sidebar sidebar cont1 cont2 cont3"
+        "cont1 cont2 cont3 cont4 cont5"
         "footer footer footer footer footer";
 }
 
@@ -116,7 +116,7 @@ main{
 /*-----BANNER SLIDER-----*/
 
 .slider{
-    width: 75%;
+    width: 95%;
     margin: auto;
     overflow: hidden;
 }
@@ -183,6 +183,26 @@ main{
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+
+#cont4{
+    background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img3.png?raw=true);
+    background-repeat:no-repeat;
+    background-size: cover;
+    grid-area: cont4;
+    border-radius:var(--main-radius);
+    padding-top:var(--main-padding);
+}
+
+#cont5{
+    background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img3.png?raw=true);
+    background-repeat:no-repeat;
+    background-size: cover;
+    grid-area: cont5;
+    border-radius:var(--main-radius);
+    padding-top:var(--main-padding);
+}
+
+
 
 /*-----FOOOTER----*/
 
