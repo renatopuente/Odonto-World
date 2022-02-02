@@ -67,6 +67,11 @@ p{
         "footer footer footer footer footer";
 }
 
+header{
+    display: grid;
+    grid-area: nav;
+}
+
 /*-----NavBar-----*/
 
 nav{
@@ -77,7 +82,7 @@ nav{
     display: grid;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-self: right;
     list-style: none;
