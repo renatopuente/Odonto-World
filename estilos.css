@@ -282,16 +282,18 @@ footer span a{
 
 @media only screen and (max-width:550px) {
     .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 1.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.4fr 1.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr 1fr 1fr;
         grid-template-areas: 
-        "nav"
-        "main"
-        "sidebar"
-        "cont1"
-        "cont2"
-        "cont3"
-        "footer"
+        "aside nav"
+        "main main"
+        "sidebar sidebar"
+        "cont1 cont1"
+        "cont2 cont2"
+        "cont3 cont3"
+        "cont4 cont4"
+        "cont5 cont5"
+        "footer footer"
         ;
     }
 
