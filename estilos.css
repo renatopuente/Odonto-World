@@ -8,6 +8,8 @@
     --main-padding:12px;
 }
 
+/*-----h1 h2 h3 h4 h5 h6 p c-----*/
+
 h1{
     font-family: 'Heebo', sans-serif;
     font-size: 32px;
@@ -51,39 +53,58 @@ p{
     padding-bottom: 16px;
 }
 
+/*-----CONTENEDOR-----*/
+
 .contenedor{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.32fr 0.86fr 0.8fr 0.2fr;
     grid-template-areas: 
-        "nav nav nav nav"
-        "sidebar main main main"
-        "sidebar cont1 cont2 cont3"
-        "footer footer footer footer";
-    grid-gap: 0.2rem;
+        "aside nav nav nav nav"
+        "sidebar sidebar main main main"
+        "sidebar sidebar cont1 cont2 cont3"
+        "footer footer footer footer footer";
 }
 
-nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-nav h3{
-    color: #275772;;
-}
-
-nav img{
-    width: 32px;
-}
+/*-----NavBar-----*/
 
 nav{
     background-color:#FCFEFF;
     grid-area: nav;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+    display: grid;
 }
+
+nav ul{
+    display: flex;
+    justify-self: right;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    align-self: right;
+    margin-right: 32px;
+}
+
+nav h3{
+    color: #275772;;
+}
+
+/*-----LOGO NAVBAR----*/
+
+aside{
+    grid-area: aside;
+}
+
+aside img{
+    width: 42px;
+    margin-left: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+/*-----MAIN-----*/
 
 main{
     background-color: #275772;
@@ -91,6 +112,8 @@ main{
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+
+/*-----BANNER SLIDER-----*/
 
 .slider{
     width: 75%;
@@ -115,6 +138,8 @@ main{
     width: 100%;
 }
 
+/*-----SIDEBAR----*/
+
 #sidebar {
     background-color: #275772;
     grid-area: sidebar;
@@ -129,6 +154,8 @@ main{
     justify-content: center;
     display:flex;
 }
+
+/*-----CONTENTS-----*/
 
 #cont1 {
     background-image: url(https://github.com/renatopuente/Odonto-World/blob/main/img1.png?raw=true);
@@ -156,6 +183,8 @@ main{
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+
+/*-----FOOOTER----*/
 
 footer{
     background-color: #504F4F;
@@ -211,6 +240,10 @@ footer span a{
     color: #f2f2f2;
 }
 
+/*----MEDIA QERYS----*/
+
+/*----BANNER SLIDER----*/
+
 @keyframes home{
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -224,6 +257,8 @@ footer span a{
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
 }
+
+/*-----RESPONSIVE-----*/
 
 @media only screen and (max-width:550px) {
     .contenedor{
